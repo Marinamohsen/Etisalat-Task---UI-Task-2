@@ -61,6 +61,34 @@ body {
 
 /* End top Navbar */
 
+/* start bottom nav */
+
+.navbar .bottom-nav-icons ul li {
+  list-style-type: none;
+  padding: 10px 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar .bottom-nav-icons ul li {
+    margin: 0 20px;
+  }
+  .navbar .bottom-nav-icons ul li {
+    list-style-type: none;
+    padding: 0;
+  }
+}
+
+.navbar .bottom-nav-icons ul li i {
+  color: white;
+  font-size: 26px;
+}
+
+.navbar .bottom-nav-icons ul li i:hover {
+  color: #6b852b;
+}
+
+/* end bottom nav  */
+
 /* start champ div */
 
 .champ-div .box {
